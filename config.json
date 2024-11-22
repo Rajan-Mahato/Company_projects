@@ -1,0 +1,38 @@
+{
+    "huggingface_hub_token":"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",  	
+    
+    "make_dutch_surname_dataset":false,
+    "path_for_dutch_surname_excell":"C:\\Users\\drraa\\OneDrive\\Desktop\\nerdatasetcreation\\data-1693309667413 firstname and lastnames.xlsx",
+    "dataset_name_for_surname_dataset":"Rajan-Mahato/firstdatset_creation",
+
+    "make_dutch_firstname_lastname_dataset":false,
+    "path_for_dutch_firstname_lastname_excell":"C:\\Users\\drraa\\OneDrive\\Desktop\\nerdatasetcreation\\data-1693309667413 firstname and lastnames.xlsx",
+    "dataset_name_for_firstname_lastname_dataset":"Rajan-Mahato/firstdataset_creation",
+
+    "make_dutch_city_street_dataset":true,
+    "path_for_dutch_city_street_excell":"C:\\Users\\drraa\\OneDrive\\Desktop\\nerdatasetcreation\\streets_and_cities.xlsx",
+    "dataset_name_for_city_street_dataset":"Rajan-Mahato/firstdataset_creation",
+
+    "load_from_excell_or_csv_and_make_new_dataset":true,
+    "column_want_to_load":1,
+    "path_for_excell_or_csv":"C:\\Users\\drraa\\OneDrive\\Desktop\\nerdatasetcreation\\streets_and_cities.xlsx",
+    "dataset_name_for_load_from_excell_or_csv":"Rajan-Mahato/new_loaded_dataset",
+    "pos_tag_for_single_word":[22],
+    "pos_tag_for_multiple_word":[22,22],
+    "chunk_tag_for_single_word":[11],
+    "chunk_tag_for_multiple_word":[11,12],
+    "ner_tag_for_single_word":[5],
+    "ner_tag_for_multiple_word":[5,6],
+
+
+    "append_above_generated_dataset":false,
+    "dataset_name_for_append_above_generated_dataset":"Rajan-Mahato/dutch_firstname_lastname_street_city_dataset_6",
+
+    "append_existing_datasets":false,
+    "existing_dataset_names_list":["A","B"],
+    
+    "AppendWithConll2003Dataset":false,
+    "existing_conll2003_dataset":["procit002/conll2003susantest"],
+    "final_dataset_name_after_appending_with_existing_or_conll2003_dataset":"Rajan-Mahato/firstdasetcreation"
+    
+}
